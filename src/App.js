@@ -1,5 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Navbar, NavbarBrand} from 'reactstrap';
+
+class App extends Componet {
+  render() {
+    return (
+      <div className="App">
+        <Navbar dark color="primary">
+          <div className="container">
+            <NavbarBrand herf="/">Ristorante Con Fusion</NavbarBrand>
+          </div>
+        </Navbar>
+      </div>
+    );
+  }
+}
 
 function App() {
   return (
